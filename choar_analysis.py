@@ -498,8 +498,7 @@ print(read_numbers_with_binom_result)
 
 if path.exists(data_out_dir) and not DEBUG:
     shutil.rmtree(data_out_dir)
-if path.exists(data_out_dir) and not DEBUG:
-    shutil.rmtree(data_out_dir)    
+
 
 #read_numbers_with_binom_result.to_excel(out_file)
 read_numbers_with_binom_result.to_csv(out_file, sep="\t", index = False, header=True)
