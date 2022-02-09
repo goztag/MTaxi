@@ -38,7 +38,7 @@ For further details, please refer to .....
 
 **settings.py :**
 
-→ File locations are set here !
+File locations are set here !
 
 → Change sp1_ref_file, sp2_ref_file, transv_poly_sp1, transv_poly_sp2 files.
  - sp1_ref_file: species 1 reference file
