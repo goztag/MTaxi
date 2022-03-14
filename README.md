@@ -41,8 +41,8 @@ For further details, please refer to .....
 File locations are set here !
 
 → Change sp1_ref_file, sp2_ref_file, transv_poly_sp1, transv_poly_sp2 files.
- - sp1_ref_file: species 1 reference file
- - transv_poly_sp1: species 1 reference file
+ - sp1_ref_file: species 1 mitochondrial reference file (in FASTA format)
+ - transv_poly_sp1: species 1 substition position file (in BED format)
 
 <br />
 
@@ -58,11 +58,11 @@ git clone https://github.com/...
 **command line arguments:**
 
 → Necessary arguments:
- - "-sp1": To specify the sample aligned to species 1 with .bam extension.
+ - "-sp1": To specify the sample aligned to species 1 with .bam extension
  - "-sp2": To specify the .bam file aligned to species 2
- - "-out": To specify the output file name.
+ - "-out": To specify the output file name
 	
-Output format is set as .txt file.File name does not need to contain the extension, .txt. However, if it is to contain, it should only contain ".txt" extension.
+Output format is set as .txt file. File name does not need to contain the extension, .txt. However, if it is to contain, it should only contain ".txt" extension.
 
 → Optional arguments:
 
