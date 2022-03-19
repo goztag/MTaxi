@@ -86,7 +86,7 @@ python3 choar_analysis.py -sp1 sample_sheep.bam -sp2 sample_goat.bam -out outf
 
 Use debug mode to see outputs of each step on the console.
 
-In addition to this, debug mode enables you to have each intermediate file be created on data_out folder. Otherwise, only needed files are generated.
+In addition to this, debug mode enables you to have each intermediate file be created on data_out folder. Otherwise, only the required files are generated.
 
 Debug mode is off by default. To activate debug mode run the following command :
 
