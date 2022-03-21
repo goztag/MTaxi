@@ -20,11 +20,12 @@ For further details, please refer to .....
 - Python 3+ (tested with 3.6)
 
 → Bedtools ([https://bedtools.readthedocs.io/en/latest/](https://bedtools.readthedocs.io/en/latest/))
+	- make sure it's on the path
     
 
 → **Required libraries**
 
- - Available in ```requirements.txt```. Install with ```pip install -r requirements.txt```.
+ - Available in ```requirements.txt```. Install with ```pip3 install -r requirements.txt```.
 
 
 <br />
@@ -40,7 +41,7 @@ For further details, please refer to .....
 
 File locations are set here !
 
-→ Change sp1_ref_file, sp2_ref_file, transv_poly_sp1, transv_poly_sp2 files.
+→ Edit the paths to sp1_ref_file, sp2_ref_file, transv_poly_sp1, transv_poly_sp2 files.
  - sp1_ref_file: species 1 mitochondrial reference file (in FASTA format)
  - transv_poly_sp1: species 1 substition positions file (in BED format)
 
