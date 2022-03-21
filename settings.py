@@ -6,7 +6,7 @@ import pathlib
  
 current_dir = pathlib.Path(__file__).parent.absolute()
 
-sp1_ref_file = f"{current_dir}/data/asm_mt.fasta"
-sp2_ref_file = f"{current_dir}/data/equc_mt.fasta"
-transv_poly_sp1_file = f"{current_dir}/data/tmp/asi_cab_bed/ttrvposasi.bed"
-transv_poly_sp2_file = f"{current_dir}/data/tmp/asi_cab_bed/ttrvposcab.bed"
+sp1_ref_file = f"{current_dir}/sp1_mt.fasta"
+sp2_ref_file = f"{current_dir}/sp2_mt.fasta"
+transv_poly_sp1_file = f"{current_dir}/trvpos_sp1.bed"
+transv_poly_sp2_file = f"{current_dir}/trvpos_sp2.bed"
