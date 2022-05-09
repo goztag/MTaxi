@@ -49,7 +49,7 @@ File locations are set here !
 ### **How to install the program via GitHub**
 
 ```bash
-git clone https://github.com/...
+git clone https://github.com/goztag/MTaxi.git
 ```
 
 <br />
