@@ -8,7 +8,6 @@ It is developed and tested using both Linux operating system (Ubuntu 18.04 LTS) 
 
 MTaxi is implemented with sheep and goat genomes in this repository, but can be used with arbitrary pairs if mtDNA references are available.
 
-For further details, please refer to .....
 
 <br />
 
