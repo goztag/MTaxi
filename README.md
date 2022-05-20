@@ -32,8 +32,8 @@ MTaxi is implemented with sheep and goat genomes in this repository, but can be 
 ### File Structure
 
 
-**choar_analysis.py :**
-- choar_analysis implementer file. Call this to run MTaxi.
+**run_MTaxi.py :**
+- run_MTaxi implementer file. Call this to run MTaxi.
 
 
 **settings.py :**
@@ -60,11 +60,12 @@ git clone https://github.com/goztag/MTaxi.git
 → Necessary arguments:
  - "-sp1": To specify the sample aligned to species 1 with .bam extension
  - "-sp2": To specify the .bam file aligned to species 2
- - "-out": To specify the output file name
+ - "-out": To specify the output file name (Output format is set as .txt file)
 	
-Output format is set as .txt file. File name does not need to contain the extension, .txt. However, if it is to contain, it should only contain ".txt" extension.
 
 → Optional arguments:
+
+"-shared" : To restrict the analysis to to those that aligned to both species’ references. As default, all reads (the reads that could be mapped to both and the ones that could map only to one of the species’ references) are included in the analysis.
 
 "-d" : To use debug mode
 
@@ -73,12 +74,19 @@ Output format is set as .txt file. File name does not need to contain the extens
 → example run on bash:
 
 ```bash
-python3 choar_analysis.py -sp1 sample_sheep.bam -sp2 sample_goat.bam -out outf
+python3 run_MTaxi.py -sp1 sample_sheep.bam -sp2 sample_goat.bam -out outf
 
 ```
+
+```bash
+python3 run_MTaxi.py -sp1 sample_sheep.bam -sp2 sample_goat.bam -shared -out outf
+
+```
+
 - sample_sheep.bam : sample aligned to sheep mitochondrial reference
 - sample_goat.bam : sample aligned to goat mitochondrial reference
-- outf: Name of the output file. The output file will be created as "outf.txt" under the same directory as that of choar_analysis.py
+- outf: Name of the output file. The output file will be created as "outf.txt" under the same directory as that of run_MTaxi.py
+
 
 <br />
 
@@ -91,6 +99,6 @@ In addition to this, debug mode enables you to have each intermediate file be cr
 Debug mode is off by default. To activate debug mode run the following command :
 
 ```bash
-python3 choar_analysis.py -sp1 sample_sheep.bam -sp2 sample_goat.bam -out outf -d
+python3 run_MTaxi.py -sp1 sample_sheep.bam -sp2 sample_goat.bam -out outf -d
 
 ```
