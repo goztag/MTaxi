@@ -2,7 +2,7 @@
 
 A comparative tool for taxon identification of low coverage ancient genomes.
 
-MTaxi is a method to classify pairs of closely related species using ancient DNA data, by utilizing mitochondrial tranversion-type substitions between the two species.
+MTaxi is a method to classify pairs of closely related species using ancient DNA data, by utilizing mitochondrial tranversion-type substitutions between the two species.
 
 It is developed and tested using both Linux operating system (Ubuntu 18.04 LTS) and WSL2 (Windows Subsystem for Linux 2), should work in other Unix-like platforms.
 
@@ -33,7 +33,7 @@ MTaxi is implemented with sheep and goat genomes in this repository, but can be 
 
 
 **run_MTaxi.py :**
-- run_MTaxi implementer file. Call this to run MTaxi.
+- run_MTaxi implementer file, call this to run MTaxi.
 
 
 **settings.py :**
@@ -55,12 +55,12 @@ git clone https://github.com/goztag/MTaxi.git
 <br />
 
 ### **How to run** ###
-**command line arguments:**
+**Command line arguments:**
 
 → Necessary arguments:
  - "-sp1": To specify the sample aligned to species 1 with .bam extension
  - "-sp2": To specify the .bam file aligned to species 2
- - "-out": To specify the output file name (Output format is set as .txt file)
+ - "-out": To specify the output file name (format is set as .txt file)
 	
 
 → Optional arguments:
@@ -71,7 +71,7 @@ git clone https://github.com/goztag/MTaxi.git
 
 **The order of arguments does not matter.**
 
-→ example run on bash:
+→ Example run on bash:
 
 ```bash
 python3 run_MTaxi.py -sp1 sample_sheep.bam -sp2 sample_goat.bam -out outf
@@ -83,9 +83,9 @@ python3 run_MTaxi.py -sp1 sample_sheep.bam -sp2 sample_goat.bam -shared -out out
 
 ```
 
-- sample_sheep.bam : sample aligned to sheep mitochondrial reference
-- sample_goat.bam : sample aligned to goat mitochondrial reference
-- outf: Name of the output file. The output file will be created as "outf.txt" under the same directory as that of run_MTaxi.py
+- sample_sheep.bam : Sample aligned to sheep mitochondrial reference
+- sample_goat.bam : Sample aligned to goat mitochondrial reference
+- outf: Name of the output file, which will be created as "outf.txt"
 
 
 <br />
