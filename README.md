@@ -102,3 +102,7 @@ Debug mode is off by default. To activate debug mode run the following command :
 python3 run_MTaxi.py -sp1 sample_sheep.bam -sp2 sample_goat.bam -out outf -d
 
 ```
+
+### License
+
+This project is licensed under the terms of the Creative Commons - Attribution 4.0 International (CC BY 4.0) license.
