@@ -43,6 +43,7 @@ File locations are set here !
 → Edit the paths to sp1_ref_file, sp2_ref_file, transv_poly_sp1, transv_poly_sp2 files.
  - sp1_ref_file: species 1 mitochondrial reference file (in FASTA format)
  - transv_poly_sp1: species 1 substition positions file (in BED format)
+     - transv_poly_sp1 and transv_poly_sp2 should have the same number of variant sites, each line corresponding to the same site in both files.
 
 <br />
 
