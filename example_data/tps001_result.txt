@@ -1,0 +1,2 @@
+Total_reads     Sp1_reads       Sp2_reads       p_value
+285       279       6       <0.001
