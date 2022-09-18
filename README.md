@@ -60,7 +60,7 @@ File locations are set here !
 - tps001_MT_sheep.bam 
 - tps001_MT_goat.bam
 
-→ result file:
+→ result file if sheep is the -sp1:
 - tps001_result.txt 
 
 
