@@ -45,6 +45,22 @@ File locations are set here !
  - transv_poly_sp1: species 1 substition positions file (in BED format)
      - transv_poly_sp1 and transv_poly_sp2 should have the same number of variant sites, each line corresponding to the same site in both files.
 
+
+**example_data/**
+
+→ reference files for sheep and goat:
+- NC_001941.1_sheep.fasta 
+- NC_005044.2_goat.fasta
+
+→ transversion substition files for sheep and goat:
+- trvpos_sheep.bed 
+- trvpos_goat.bed
+
+→ sheep sample tps001, adopted from Yurtman et. al (2021), alignment files:
+- tps001_MT_sheep.bam 
+- tps001_MT_goat.bam
+
+
 <br />
 
 ### **How to install the program via GitHub**
