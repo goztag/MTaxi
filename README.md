@@ -88,6 +88,16 @@ python3 run_MTaxi.py -sp1 sample_sheep.bam -sp2 sample_goat.bam -shared -out out
 - sample_goat.bam : Sample aligned to goat mitochondrial reference
 - outf: Name of the output file, which will be created as "outf.txt"
 
+### **Output** ###
+
+MTaxi will print the results as below and write them to the output file.
+
+```bash
+>>> RESULTS <<<
+   Total_reads  Sp1_reads  Sp2_reads       p_value
+0       NNNN       NNN       NNN             NN
+
+```
 
 <br />
 
