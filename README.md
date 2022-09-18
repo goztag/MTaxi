@@ -56,9 +56,12 @@ File locations are set here !
 - trvpos_sheep.bed 
 - trvpos_goat.bed
 
-→ sheep sample tps001, adopted from Yurtman et. al (2021), alignment files:
+→ sheep sample TEP03 (Yurtman et. al 2021), alignment files:
 - tps001_MT_sheep.bam 
 - tps001_MT_goat.bam
+
+→ result file:
+- tps001_result.txt 
 
 
 <br />
