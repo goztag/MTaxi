@@ -8,6 +8,10 @@ It is developed and tested using both Linux operating system (Ubuntu 18.04 LTS) 
 
 MTaxi is implemented with sheep and goat genomes in this repository, but can be used with arbitrary pairs if mtDNA references are available.
 
+<br />
+
+→ **Note:** The default algorithm of MTaxi is optimized for low mitochondrial coverages. For high coverage data (e.g. >10x), please use the argument _"-shared"_.
+
 
 <br />
 
