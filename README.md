@@ -10,7 +10,7 @@ MTaxi is implemented with sheep and goat genomes in this repository, but can be 
 
 <br />
 
-→ **Note:** The default algorithm of MTaxi is optimized for low mitochondrial coverages. For high coverage data (e.g. >10x), please use the argument _"-shared"_.
+→ **Note:** The default algorithm of MTaxi is optimized for low mitochondrial coverages. For high coverage data (e.g. >10x), please use the argument _"-shared"_ on separate libraries.
 
 
 <br />
